@@ -1,0 +1,24 @@
+body {
+	background-color: gray;
+}
+.listing {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.listing div {
+	text-align: center;
+	width: 25%;
+	height: 30px;
+	display: inline-block;
+}
+
+.listing:nth-child(even) {
+	background-color: white;
+}
+
+
+#maker {
+	width: 100%;
+}
+

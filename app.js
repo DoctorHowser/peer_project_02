@@ -4,7 +4,7 @@ $(document).ready(function(){
 	});
 	$('#container').on('click', '.remove', function(){
 		$(this).closest('.listing').slideUp("slow", function(){
-			this.remove();
+			$(this).remove();
 			console.log("GONE");
 		});
 	});
